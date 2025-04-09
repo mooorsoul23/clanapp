@@ -1,0 +1,72 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Expo / React Native / Metro
+.expo/
+.expo-shared/
+.expo-cache/
+.expo-dev-client/
+*.expo
+
+# Android / Gradle
+android/app/build/
+android/.gradle/
+android/.idea/
+.gradle/
+build/
+*.iml
+
+# iOS (якщо буде)
+ios/Pods/
+ios/build/
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj
+*.xcuserdatad
+
+# Capacitor
+capacitor.config.json
+
+# IDEs / Editors
+.idea/
+.vscode/
+*.sublime*
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.tmp
+*.swp
+*.ini
+*.dat
+*.pid
+*.lock
+
+# Windows user folders
+/Desktop/
+/Documents/
+/Downloads/
+/Favorites/
+/Music/
+/Pictures/
+/Saved Games/
+/Videos/
+/OneDrive/
+/AppData/
+/Links/
+/Searches/
+NTUSER.DAT*
+ntuser.*
+
+# Misc
+*.keystore
+*.jks
+.env
+.env.*
+eas.json
